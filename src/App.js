@@ -252,7 +252,7 @@ export default function App() {
 		if (isCorrect) {
 			setScore(score + 1);
 			
-		} else alert ('Respuesta equivocada, vuelve a cargar'); 
+		} else alert ('Respuesta equivocada, por favor vuelve a cargar'); 
 		
 ; 
 
