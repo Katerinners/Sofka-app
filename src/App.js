@@ -252,11 +252,9 @@ export default function App() {
 		if (isCorrect) {
 			setScore(score + 1);
 			
-		} else alert ('Respuesta equivocada, por favor vuelve a cargar'); 
-		
+		} else (alert ('Respuesta equivocada, por favor vuelve a cargar')); 	
 ; 
-
-		const nextQuestion = currentQuestion + 1;
+	const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion);
 		} else {
